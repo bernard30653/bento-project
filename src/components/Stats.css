@@ -1,0 +1,26 @@
+.stats-outer{
+    background: #F2F2F2;
+    padding-bottom:100px;
+    padding-top:90px;
+    padding-left:20vw;
+    padding-right:20vw;
+}
+.stats-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.stats-container>div{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.stats-container>div>div:nth-child(1){
+    color:#5467EB;
+    font-size: 4rem;
+    text-align: center;
+}
+.stats-container>div>div:nth-child(2){
+    font-size: 1.5rem;
+    text-align:center;
+}

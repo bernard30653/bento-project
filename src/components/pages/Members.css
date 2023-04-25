@@ -1,0 +1,45 @@
+.member-outer{
+    margin-top:70px;
+    margin-left:220px;
+    margin-right: 220px;
+}
+.member-avatar{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.avatar{
+    border-radius:50%;
+    width: 150px;
+    height:150px;
+}
+.member-name{
+    font-size: 2.5rem;
+    color: #858585;
+    margin-left: 50px;
+}
+.member-quote{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-top: 40px;
+    margin-bottom:30px;
+}
+.member-quote>i{
+    color:#999999;
+}
+.member-quote>p{
+    color: #3F761D;
+    font-size: 1.5rem;
+    margin-left:10px;
+    margin-right:10px;
+}
+.member-intro>p{
+    text-align:justify;
+    margin-bottom:30px;
+    font-size:1.2rem;
+    line-height:2rem;
+}
+.member-hr{
+    margin-bottom:30px;
+}

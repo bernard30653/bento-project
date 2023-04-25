@@ -1,0 +1,101 @@
+.navbar{
+    background:#4cAf50;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position:sticky;
+    top: 0;
+    z-index:999;
+}
+.navbar-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width:1600px;
+}
+.nav-menu{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap:20px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: end;
+    margin-right:2rem;
+    width:60vw;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.nav-links{
+    display:table;
+    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-logo{
+    display:flex;
+    font-family: "Ranga", cursive;
+    padding-left:10px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    justify-self: start;
+    font-size: 2rem;
+}
+.navbar-logo >img{
+    height:auto;
+    width: auto;
+    max-height:40px;
+    max-width:40px;
+    margin-left:1rem;
+}
+
+.nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+
+}
+  
+
+.menu-icon{
+    display: none;
+}
+
+.fa-caret-down{
+   margin-left: 0.5rem; 
+}
+
+.dropdown-content{
+    width:15vw;
+    display:none;
+    position:absolute;
+    list-style-type:none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    top: 80px;
+}
+.about-dropdown-link{
+    color:black;
+    text-decoration:none;
+    display:block;
+    padding: 12px 16px;
+    transition: all 0.2s ease-out;
+}
+.dropdown-link{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    transition: all 0.2s ease-out;
+    text-align:left;
+}
+.dropdown-content a:hover {background-color: rgb(245,245,245); }
+#nav-dropdown-item:hover .dropdown-content {display: block;}
+#about-dropdown-item:hover .dropdown-content {display: block;}

@@ -1,0 +1,17 @@
+.dish-container h1 {
+    margin: 1rem 0;
+    font-size: 70px;
+    color: #FF9800;
+    text-align: center;
+    text-decoration: none;
+}
+.dish-container h2 {
+    margin: 1rem 0;
+    font-size: 30px;
+    color: lightgray;
+    text-align: center;
+    text-decoration: none;
+}
+.dish-container {
+    margin-top: 100px;
+}

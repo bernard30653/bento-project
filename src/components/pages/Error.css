@@ -1,0 +1,48 @@
+.error-outer{
+    position:relative;
+    padding-top:160px;
+    padding-bottom: 100px;
+    padding-left:15vw;
+    padding-right:15vw;
+}
+.error-bg{
+    position: absolute;
+    background-image: url("../../images/網站照片/歷年計畫/history_5_2.jpg");
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    height:100%;
+    width: 100vw;
+    z-index:-1;
+    opacity:0.4;
+}
+.error-container{
+    background:rgba(255, 255, 243, 0.3);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+}
+.error-table{
+    padding-top:60px;
+    padding-bottom:60px;
+    padding-left:50px;
+    text-align: center;
+}
+.error-table>h2{
+    margin-bottom: 30px;
+    color:#3F761D;
+}
+.error-table p{
+    margin-bottom: 20px;
+}
+.error-header{
+    position: absolute;
+    top: 80px;
+    text-align:center;
+    color: #3F761D;
+    font-size:3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}

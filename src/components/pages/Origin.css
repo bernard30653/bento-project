@@ -1,0 +1,20 @@
+
+.origin-container>p{
+    text-align: justify;
+    margin-bottom:50px;
+    font-size: 1.2rem;
+}
+.origin-container{
+    margin-left:175px;
+    margin-right:175px;
+    margin-top:80px;
+    margin-bottom:200px;
+}
+.origin-signature-container{
+    display:flex;
+    justify-content: flex-end;
+}
+.origin-signature{
+    font-size: 4rem;
+    font-family:'Tangerine', cursive;
+}

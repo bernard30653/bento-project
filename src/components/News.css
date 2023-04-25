@@ -1,0 +1,11 @@
+.news-table{
+    text-align:center;
+}
+.news-container{
+    margin-top: 60px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

@@ -1,0 +1,38 @@
+.donate-outer{
+    background: #E5E5E5;
+    position:relative;
+    padding-bottom: 80px;
+    padding-top: 140px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.donate-container{
+    display:flex;
+    justify-content: space-between;
+}
+.piggy-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.credit-card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.piggy-container>img{
+    width:auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 50px;
+}
+.credit-card-container>img{
+    width:auto;
+    height:auto;
+    max-width: 300px;
+    max-height:300px;
+    margin-bottom: 50px;
+}

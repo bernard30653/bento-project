@@ -1,0 +1,19 @@
+.cambodia-container{
+    margin-bottom:90px;
+    margin-top: 60px;
+    margin-left:210px;
+    margin-right:210px;
+}
+
+.cambodia-container>p{
+    text-align: justify;
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+.cambodia-container>h3{
+    margin-bottom: 30px;
+    font-size:1.5rem;
+}
+.cambodia-container>hr{
+    margin-bottom: 30px;
+}
