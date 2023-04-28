@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bento-project/static/css/main.0dd219ff.css",
-    "main.js": "/bento-project/static/js/main.0809ed63.js",
+    "main.css": "/bento-project/static/css/main.36785cd4.css",
+    "main.js": "/bento-project/static/js/main.57c6eb9d.js",
     "static/media/history_1_2.jpg": "/bento-project/static/media/history_1_2.01647a25b5976a2f4632.jpg",
     "static/media/cover_photo_test_2.jpg": "/bento-project/static/media/cover_photo_test_2.fe3bb3600e0e9069eaf7.jpg",
     "static/media/cover_photo_test.jpg": "/bento-project/static/media/cover_photo_test.a97b4c7e255d28433bb7.jpg",
@@ -72,11 +72,11 @@
     "static/media/slick.ttf": "/bento-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/bento-project/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bento-project/index.html",
-    "main.0dd219ff.css.map": "/bento-project/static/css/main.0dd219ff.css.map",
-    "main.0809ed63.js.map": "/bento-project/static/js/main.0809ed63.js.map"
+    "main.36785cd4.css.map": "/bento-project/static/css/main.36785cd4.css.map",
+    "main.57c6eb9d.js.map": "/bento-project/static/js/main.57c6eb9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dd219ff.css",
-    "static/js/main.0809ed63.js"
+    "static/css/main.36785cd4.css",
+    "static/js/main.57c6eb9d.js"
   ]
 }
